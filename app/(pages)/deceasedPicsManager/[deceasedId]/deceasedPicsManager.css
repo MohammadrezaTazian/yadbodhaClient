@@ -1,0 +1,74 @@
+.container{
+	width:100%;
+	margin:auto;
+	min-height:100%;
+	position:relative;
+	background:url(../../../../public/images/profile.jpeg) center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	padding:50px 40px 50px 40px;
+	text-align: center !important;
+}
+.avatar {
+	margin-bottom: 20px;
+	background-color: #ada9a9 !important;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.input {
+	width: 100%;
+	color:#fff !important;
+	background-color: #4a4848a6 !important;
+	padding: 5px !important;
+	font-size: large !important;
+	border-color: #fdfbfa5e!important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-form-item .ant-form-item-label >label {
+	color:#aaa !important;
+	font-size:15px !important;
+	font-weight: bold;
+}
+.title-label {
+	color:#fcf9f9 !important;
+	margin-bottom: 40px !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 20000000s;
+  -webkit-text-fill-color: #fff !important;
+} 
+
+.form-width {
+	width: -webkit-fill-available;
+}
+
+.ant-select-arrow {
+	color: white !important;
+}
+
+.button {
+	text-transform: uppercase;
+
+}
+
+.button {
+	width: 100%;
+	min-Width: '300px' !important;
+	color: #fff !important;
+	display: block !important;
+	background: #2b4b2fc7 !important;
+	box-shadow: 0 2px 0 rgb(5 145 255 / 41%);
+	border: none;
+	background: rgba(255, 255, 255, .3) !important;
+	height: 60px !important;
+	font-size: large !important;
+}
+

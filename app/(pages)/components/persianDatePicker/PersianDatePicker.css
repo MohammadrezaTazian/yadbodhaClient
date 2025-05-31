@@ -1,0 +1,18 @@
+:where(.css-dev-only-do-not-override-143w3hu).ant-picker {
+    display: block !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-picker-outlined {
+    background: rgba(255, 255, 255, .2) !important;
+}
+:where(.css-dev-only-do-not-override-143w3hu).ant-picker .ant-picker-suffix {
+color: beige !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-picker .ant-picker-input>input {
+    height: 30px !important;
+    color: white !important;
+}
+.custom-placeholder .ant-picker-input>input::placeholder {
+    color: rgb(160, 159, 159) !important;
+}

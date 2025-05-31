@@ -1,0 +1,59 @@
+.displayable-container {
+    width: 100%;
+    margin: auto;
+    min-height: 100%;
+    position: relative;
+    background: url(../../../public/images/profile.jpeg) center;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+    padding: 15px 10px 15px 10px;
+    text-align: center !important;
+}
+.gallery {
+    padding: 20px;
+}
+
+.ant-modal-body {
+    padding: 0;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.modal-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev,
+.next {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+    color: #1890ff;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-card .ant-card-head {
+    background-color: aquamarine !important;
+}
+.col-dead-info {
+    align-content: center !important;
+    color: #cec3a8 !important;
+    
+}
+
+.dead-info {
+    text-align: right !important;
+    font-Size: 16px !important;
+    font-weight: bold !important;
+    padding-right: 25px !important;
+}

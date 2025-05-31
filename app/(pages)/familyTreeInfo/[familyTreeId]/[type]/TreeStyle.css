@@ -1,0 +1,24 @@
+.tree-container {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center; /* قرار دادن درخت در وسط صفحه */  
+}  
+
+.custom-tree {  
+  margin-top: 30px; /* فاصله از بالا */  
+}  
+
+.ant-tree {  
+  display: flex;  
+  justify-content: center; /* قرار دادن درخت در وسط */  
+}  
+
+.ant-tree-node {  
+  display: flex;  
+  flex-direction: column; /* نمایش نودها به صورت عمودی */  
+  align-items: center;  /* تراز کردن نودها در مرکز */  
+}  
+
+.ant-tree-node .ant-tree-title {  
+  text-align: center; /* تراز کردن متن عنوان نودها */  
+}

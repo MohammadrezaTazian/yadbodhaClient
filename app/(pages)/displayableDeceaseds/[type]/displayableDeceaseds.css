@@ -1,0 +1,55 @@
+.displayable-container {
+	width: 100%;
+	margin: auto;
+	min-height: 100%;
+	position: relative;
+	background: url(../../../../public/images/profile.jpeg) center;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+	padding: 15px 10px 15px 10px;
+	text-align: center !important;
+}
+
+.input {
+	color:#fff !important;
+	background-color: #000000a6 !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-form-item .ant-form-item-label >label {
+	color:#aaa !important;
+	font-size:12px !important;
+	font-weight: bold;
+}
+.title-color {
+	color: aqua !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-card .ant-card-body {
+    padding: 10px !important;
+}
+
+.dead-button-displayable {
+	min-width: 90px !important;
+	margin-bottom: 5px !important;
+	margin-right: 5px !important;
+	background-color: #477568 !important;
+	
+}
+.dead-button:hover {
+	background-color: #6fb4a1 !important;
+}
+.col-dead-info {
+	align-content: center !important;
+	color: #cec3a8 !important;
+}
+.dead-info {
+	text-align: right !important;
+	font-Size: 16px !important;
+	font-weight: bold !important;
+	padding-right: 25px !important;
+}
+
+.dead-font {
+	font-weight: normal !important;
+	color: #e3ded2 !important;
+	font-Size: 14px !important;
+}

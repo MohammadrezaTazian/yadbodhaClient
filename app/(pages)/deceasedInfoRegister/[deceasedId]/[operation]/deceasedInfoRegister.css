@@ -1,0 +1,101 @@
+.container{
+	width:100%;
+	margin:auto;
+	min-height:100%;
+	position:relative;
+	background:url(../../../../../public/images/profile.jpeg) center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	padding:50px 40px 50px 40px;
+	text-align: center !important;
+}
+.avatar {
+	margin-bottom: 20px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.input {
+	width: 100%;
+	color:#fff !important;
+	background-color: #4a4848a6 !important;
+	padding: 5px !important;
+	font-size: large !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-form-item .ant-form-item-label >label {
+	color:#aaa !important;
+	font-size:15px !important;
+	font-weight: bold;
+}
+.title-label {
+	color:#fcf9f9 !important;
+	margin-bottom: 40px !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 20000000s;
+  -webkit-text-fill-color: #fff !important;
+} 
+
+.form-width {
+	width: -webkit-fill-available;
+}
+
+.ant-select-arrow {
+	color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single {
+	min-height: 40px !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+	background-color: #4a4848a6 !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single .ant-select-selector .ant-select-selection-search {
+	color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single .ant-select-selector {
+	color: white !important;
+}
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single .ant-select-selector .ant-select-selection-item,
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+	text-align: start !important;
+	color: white !important;
+}
+
+.custom-dropdown {
+	background-color: #6f6e6e42 !important;
+	/* rgba(5, 5, 5, 0) !important; */
+	/* رنگ سیاه با شفافیت کمتر */
+}
+
+.custom-dropdown .ant-select-item {
+	color: #000;
+	/* رنگ متن */
+}
+
+.custom-dropdown .ant-select-item:hover {
+	background-color: rgba(89, 74, 74, 0.063);
+	/* رنگ پس‌زمینه هنگام 'hover' */
+}
+
+.defaultText {
+	color: aquamarine; 
+	display: 'flex'; 
+	text-align: 'center';
+}
+
+
+
+
+

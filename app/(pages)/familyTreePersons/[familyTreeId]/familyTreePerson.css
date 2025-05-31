@@ -1,0 +1,95 @@
+.container {
+	width: 100%;
+	margin: auto;
+	min-height: 100%;
+	position: relative;
+	background: url(../../../../public/images/registeredDeceaseds.jpeg) center no-repeat;
+	background-size: cover;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+	padding: 15px 10px 15px 10px;
+	text-align: center !important;
+	padding: 15px 10px;
+}
+
+.input {
+	color:#fff !important;
+	background-color: #000000a6 !important;
+}
+
+.label {
+	font-size: large !important;
+	font-weight: bold;
+	color: #6fb4a1;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-form-item .ant-form-item-label >label {
+	color:#aaa !important;
+	font-size:12px !important;
+	font-weight: bold;
+}
+.title-color {
+	color: aqua !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-card .ant-card-body {
+    padding: 10px !important;
+}
+
+.dead-button {
+	width: 130px !important;
+	margin-bottom: 5px !important;
+	margin-right: 5px !important;
+	background-color: #477568 !important;
+	
+}
+.dead-button:hover {
+	background-color: #6fb4a1 !important;
+}
+.col-dead-info {
+	align-content: center !important;
+	color: #cec3a8 !important;
+}
+.dead-info {
+	text-align: right !important;
+	font-Size: 16px !important;
+	font-weight: bold !important;
+	padding-right: 25px !important;
+}
+
+.dead-font {
+	font-weight: normal !important;
+	color: #e3ded2 !important;
+	font-Size: 14px !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+	border: 1px solid #d9d9d9;
+	background: #000000a6 !important;
+}
+
+.custom-dropdown {
+	background-color: #6f6e6e42 !important;
+}
+
+.custom-dropdown .ant-select-item {
+	color: #000;
+}
+
+.custom-dropdown .ant-select-item:hover {
+	background-color: rgba(89, 74, 74, 0.063);
+}
+.ant-select-arrow {
+	color: white !important;
+}
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single .ant-select-selector .ant-select-selection-search {
+	color: white !important;
+}
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single .ant-select-selector {
+	color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single .ant-select-selector .ant-select-selection-item,
+:where(.css-dev-only-do-not-override-143w3hu).ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+	text-align: start !important;
+	color: white !important;
+}

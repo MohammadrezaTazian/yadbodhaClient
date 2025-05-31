@@ -1,0 +1,133 @@
+.displayable-container {
+  width: 100%;
+  margin: auto;
+  min-height: 100%;
+  position: relative;
+  background: url(../../../public/images/profile.jpeg) center;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+  padding: 15px 10px 15px 10px;
+  text-align: center !important;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* .input {
+  color: #fff !important;
+  background-color: #000000a6 !important;
+} */
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-form-item .ant-form-item-label>label {
+  color: #aaa !important;
+  font-size: 12px !important;
+  font-weight: bold;
+}
+
+.title-color {
+  color: aqua !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-card .ant-card-body {
+  padding: 10px !important;
+}
+
+.familyTree-button {
+  min-width: 140px !important;
+  margin-bottom: 5px !important;
+  margin-right: 5px !important;
+  background-color: #477568 !important;
+
+}
+
+.familyTree-button:hover {
+  background-color: #6fb4a1 !important;
+}
+
+.col-dead-info {
+  align-content: center !important;
+  color: #cec3a8 !important;
+}
+
+.dead-info {
+  text-align: right !important;
+  font-Size: 16px !important;
+  font-weight: bold !important;
+  padding-right: 25px !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-tree-show-line .ant-tree-switcher-line-icon {
+  vertical-align: -0.5em !important;
+}
+
+@media (max-width: 900px) {
+
+.displayable-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.display-button-row {
+  display: block !important;
+}
+
+.family-col {
+  margin-top: 30px;
+  min-width: 300px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .family-col {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .family-col {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .family-col {
+    width: 25%;
+  }
+}
+
+.button {
+  text-transform: uppercase;
+
+}
+
+.button {
+  width: 100%;
+  min-Width: '300px' !important;
+  color: #fff !important;
+  display: block !important;
+  background: #2b4b2fc7 !important;
+  box-shadow: 0 2px 0 rgb(5 145 255 / 41%);
+  border: none;
+  background: rgba(255, 255, 255, .3) !important;
+  height: 60px !important;
+  font-size: large !important;
+}
+
+.button:hover {
+  background-color: #828d84 !important;
+}
+
+.custom-dropdown {
+  background-color: #6f6e6e42 !important;
+}
+
+.custom-dropdown .ant-select-item {
+  color: #000;
+}
+
+.custom-dropdown .ant-select-item:hover {
+  background-color: rgba(89, 74, 74, 0.063);
+}
+
+/* :where(.css-dev-only-do-not-override-143w3hu).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  background: #000000a6 !important;
+} */

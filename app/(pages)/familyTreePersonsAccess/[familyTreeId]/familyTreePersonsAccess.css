@@ -1,0 +1,109 @@
+.registerDeadContainer {
+	width: 100%;
+	margin: auto;
+	min-height: 100%;
+	/* min-height: 100vh; */
+	position: relative;
+	background: url(../../../../public/images/registeredDeceaseds.jpeg) center no-repeat;
+	background-size: cover;
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+	padding: 15px 10px 15px 10px !important;
+	text-align: center !important;
+	padding: 15px 10px;
+}
+/* 
+.input {
+	color:#fff !important;
+	background-color: #000000a6 !important;
+}*/
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-form-item .ant-form-item-label >label {
+	color:#aaa !important;
+	font-size:12px !important;
+	font-weight: bold;
+}
+.title-color {
+	color: aqua !important;
+}
+.title-color-Access {
+	color: rgb(5, 171, 113) !important;
+}
+
+:where(.css-dev-only-do-not-override-143w3hu).ant-card .ant-card-body {
+    padding: 10px !important;
+}
+
+.dead-button {
+	width: 130px !important;
+	margin-bottom: 5px !important;
+	margin-right: 5px !important;
+	background-color: #477568 !important;
+	
+}
+.dead-button:hover {
+	background-color: #6fb4a1 !important;
+}
+.col-dead-info {
+	align-content: center !important;
+	color: #cec3a8 !important;
+}
+.dead-info {
+	text-align: right !important;
+	font-Size: 16px !important;
+	font-weight: bold !important;
+	padding-right: 25px !important;
+}
+
+.dead-font {
+	font-weight: normal !important;
+	color: #e3ded2 !important;
+	font-Size: 14px !important;
+} 
+
+.ant-input {
+	background-color: #f0f0f0;
+	/* حاکستری کم رنگ */
+	border-color: #d9d9d9;
+	/* حاشیه‌ی کم‌رنگ */
+}
+
+.custom-table .ant-table {
+	background-color: #f0f0f0;
+	/* حاکستری کم رنگ */
+}
+
+.custom-table .ant-table-tbody>tr>td {
+	background-color: #f0f0f0;
+	/* حاکستری کم رنگ برای ردیف‌ها */
+}
+
+.custom-table .ant-table-thead>tr>th {
+	background-color: #d9d9d9;
+	/* حاکستری بسیار کم رنگ برای سرستون‌ها */
+}
+
+.ant-pagination {
+	background-color: #f0f0f0;
+	/* پس‌زمینه حاکستری کم رنگ */
+}
+
+.ant-pagination-item-link,
+.ant-pagination-item,
+.ant-pagination-next,
+.ant-pagination-prev {
+	background-color: #f0f0f0;
+	/* حاکستری کم رنگ */
+	border-color: #d9d9d9;
+	/* حاشیه کم رنگ */
+}
+
+.ant-pagination-item-active {
+	background-color: #d9d9d9;
+	/* حاکستری مرتبط با فعال */
+	border-color: #d9d9d9;
+	/* حاشیه */
+}
+
+.custom-modal {  
+  margin-left: 30px; /* فاصله از سمت چپ */  
+}
