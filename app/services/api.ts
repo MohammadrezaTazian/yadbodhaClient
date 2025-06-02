@@ -15,7 +15,7 @@ export const getUrlToken = (): string => {
 };
 
 export const baseUrl = (): string => {
-  return 'http://hadbudha.somee.com';
+  return 'https://hadbudha.somee.com';
 };
 
 export default async function api<resultType>(
