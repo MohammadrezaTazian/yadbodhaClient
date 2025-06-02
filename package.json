@@ -7,8 +7,6 @@
     "dev": "next dev -p 8211",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export",
-    "prepublish": "npm run export",
     "lint": "next lint"
   },
   "dependencies": {
