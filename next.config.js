@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // ⬅️ مهم: فعال‌سازی خروجی استاتیک
+  output: 'export', // فعال‌سازی خروجی استاتیک
   eslint: {
-    ignoreDuringBuilds: true, // ⬅️ حفظ تنظیم فعلی
+    ignoreDuringBuilds: true, // نادیده گرفتن خطاهای eslint هنگام ساخت پروژه
   },
+  reactStrictMode: false,
 };
 
 module.exports = nextConfig;
