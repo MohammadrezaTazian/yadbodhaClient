@@ -15,7 +15,7 @@ export const getUrlToken = (): string => {
 };
 
 export const baseUrl = (): string => {
-  return 'http://localhost:7210';
+  return 'http://hadbudha.somee.com';
 };
 
 export default async function api<resultType>(
